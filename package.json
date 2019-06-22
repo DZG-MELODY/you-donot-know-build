@@ -1,0 +1,30 @@
+{
+  "name": "you-donot-know-build",
+  "version": "1.0.0",
+  "description": "you do not know build in front end project",
+  "main": "index.js",
+  "scripts": {
+    "pub": "sh deploy.sh",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DZG-MELODY/you-donot-know-build.git"
+  },
+  "keywords": [
+    "web",
+    "webpack",
+    "rollup",
+    "parcel"
+  ],
+  "author": "dzg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DZG-MELODY/you-donot-know-build/issues"
+  },
+  "homepage": "https://github.com/DZG-MELODY/you-donot-know-build#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.1"
+  }
+}
